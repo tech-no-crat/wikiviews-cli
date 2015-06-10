@@ -10,4 +10,4 @@ A small script that produces a CSV containing per-day view counts for any wikipe
 
 ## Running
 1. Edit config.json: you probably want to change the article name and start/end months.
-2. Run `node wikiviews-cli.js`. Optionally, you can override the article name and filename by passing them as command-line arguments in this order, i.e. `node wikivies-cli.js Greece greece-wikipedia-views.csv`. By default, the csv will be saved in `views.csv`.
+2. Run `node wikiviews-cli.js`. Optionally, you can override the article name and filename by passing them as command-line arguments in this order, i.e. `node wikiviews-cli.js Greece greece-wikipedia-views.csv`. By default, the csv will be saved in `views.csv`.
